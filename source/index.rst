@@ -27,8 +27,8 @@ Abruan was first developed in MATLAB with GUI created using the App Designer. It
 
 The new architecture uses frames and domains as the basis. Flowfield, if comupted using external solver, can be read and used for aero-optics.
 
-.. image:: _images/abruan_architecture.jpeg 
-   :align: center
+.. .. image:: _images/abruan_architecture.jpeg 
+..    :align: center
 
 Relevant Publications
 ----------------------
