@@ -1,6 +1,6 @@
 .. _aboutAbruan:
 
-AbRuAn: Planetary Aero and Plasma Optics Simulation Framework
+AbRuAn: Hypersonic Aero-Optics Simulation Framework
 ==============================================================
 
 .. sidebar:: AbRuAn Vision
