@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Abruan'
-copyright = '2023, Anubhav Gupta'
+copyright = '2023 Anubhav Gupta. All rights reserved.'
 author = 'Anubhav Gupta'
-release = '0.0.1'
+release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

@@ -1,20 +1,22 @@
-.. aboutAbruan
+.. _aboutAbruan:
 
 AbRuAn: Planetary Aero and Plasma Optics Simulation Framework
 ==============================================================
 
-.. sidebar:: Vision
+.. sidebar:: AbRuAn Vision
 
    .. image:: _images/banner1.png
        :align: center
        :width: 300
 
-   **Description:** A tool for faster aero and plasma optical analysis. 
+   **Description:** A simulation framework for aero and plasma optics analysis in high-speed and planetary environment. 
    
-   **License:** MIT License
+   **License:** MIT License (Not Finalized)
 
    **Platforms:** macOS, Linux and Windows
    
+   **First Release:** Jun 2020
+
    **Status:** In development
 
 What is AbRuAn?
@@ -45,8 +47,8 @@ Relevant Publications
    :caption: AbRuAn:
 
    rst/install
-   rst/learning
    rst/example
+
 
 .. Indices and tables
 .. ==================
