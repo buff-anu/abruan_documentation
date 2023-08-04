@@ -24,13 +24,14 @@ What is AbRuAn?
 AbRuAn (or abruan) is named after my family members - Abhinav, Ruchi, and Anil Kumar Gupta. It is an aero-optical simulation framework developed at the University of Colorado Boulder for the analysis of aero-optics in high-speed flows. The package is restricted from wide public distribution but may be requested by an individual or group or organization.
 
 Architecture
------------------
-Abruan was first developed in MATLAB with GUI created using the App Designer. It was packaged as a standalone application which required downloading MATLAB Runtime (MCR) at the first instance of use if MATLAB is not installed on the host computer. The first release was in 2020. Current development is underway for re-architecting the framework for faster execution, flexibility of reconfiguration and analysis options, and multi-species modeling in planetary atmospheres such as that of Mars.
+-------------
+**First Architecture:** Abruan was first developed in MATLAB with GUI created using the App Designer. It was packaged as a standalone application which required downloading MATLAB Runtime (MCR) at the first instance of use if MATLAB is not installed on the host computer. The first release was in 2020. 
 
-The new architecture uses frames and domains as the basis. Flowfield, if comupted using external solver, can be read and used for aero-optics.
+.. image:: _images/abruan_interface.PNG
+   :align: center
+   :width: 400
 
-.. .. image:: _images/abruan_architecture.jpeg 
-..    :align: center
+**Revised Architecture:** The re-architecture of AbRuAn is aimed at faster execution, flexibility of reconfiguration, multi-species modeling in planetary atmospheres, and Monte Carlo analysis. Frames and domains form the basis of this framework. Flowfield, if comupted using external solver, can be read and used for aero-optics.
 
 Relevant Publications
 ----------------------
