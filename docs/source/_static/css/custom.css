@@ -1,0 +1,22 @@
+/** css/yourtheme.css **/
+
+/* This line is theme specific - it includes the base theme CSS */
+/*@import '../alabaster.css';  /* for Alabaster */
+@import 'theme.css';       /* for the Read the Docs theme */
+
+body {
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background:goldenrod;
+    }
+    /* Sidebar */
+    .wy-nav-side {
+      background: gray;
+    }
+    .wy-nav-content {
+      max-width: none;
+    }
+    .wy-menu-vertical a { 
+      color: #fafafa;
+    }
+}

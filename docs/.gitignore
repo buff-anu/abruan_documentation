@@ -1,5 +1,5 @@
 build/
-source/_templates
-source/_static
+# source/_templates
+# source/_static
 
 .vscode/
