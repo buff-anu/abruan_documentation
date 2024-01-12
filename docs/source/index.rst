@@ -24,13 +24,15 @@ Architecture
 
    **Status:** In development
 
+AbRuAn is aimed at faster execution, flexibility of reconfiguration, multi-species modeling in planetary atmospheres, and Monte Carlo analysis. Frames and domains form the basis of this framework. Flowfield, if comupted using external solver, can be read and used for aero-optics.
+
 **First Architecture:** Abruan was first developed in MATLAB with GUI created using the App Designer. It was packaged as a standalone application which required downloading MATLAB Runtime (MCR) at the first instance of use if MATLAB is not installed on the host computer. The first release was in 2020. 
 
 .. image:: _images/abruan_interface.png
    :align: center
    :width: 400
 
-**Revised Architecture:** The re-architecture of AbRuAn is aimed at faster execution, flexibility of reconfiguration, multi-species modeling in planetary atmospheres, and Monte Carlo analysis. Frames and domains form the basis of this framework. Flowfield, if comupted using external solver, can be read and used for aero-optics.
+---------------------
 
 Relevant Publications
 ----------------------
