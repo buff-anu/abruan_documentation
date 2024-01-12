@@ -38,7 +38,7 @@ html_theme_options = {
     # },
     'logo_only': False,
     'display_version': True,
-    'collapse_navigation': True,
-    'sticky_navigation': True,
+    # 'collapse_navigation': True,
+    # 'sticky_navigation': True,
     # 'style_nav_header_background': 'goldenrod',
 }
