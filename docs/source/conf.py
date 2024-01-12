@@ -25,13 +25,13 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['source/_static']
+html_static_path = ['_static']
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
 html_css_files = [
-    'source/css/custom.css',
+    'css/custom.css',
 ]
-html_logo = 'source/_images/abruan-logo.png'
+html_logo = '_images/abruan-logo.png'
 html_theme_options = {
     # 'logo': {
     #     'text': 'AbRuAn Logo',
