@@ -7,16 +7,25 @@
 body {
     /* Sidebar header (and topbar for mobile) */
     .wy-side-nav-search, .wy-nav-top {
-      background:goldenrod;
+      background: #CFB87C; /* CU gold */
     }
+
     /* Sidebar */
     .wy-nav-side {
-      background: gray;
+      background: #565A5C;  /* CU dark grey */
     }
+    
     .wy-nav-content {
       max-width: none;
     }
+
     .wy-menu-vertical a { 
       color: #fafafa;
     }
+
+    /* Caption color */
+    .wy-breadcrumbs a {
+      color: #fafafa;
+    }
+
 }

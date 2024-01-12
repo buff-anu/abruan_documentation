@@ -3,13 +3,18 @@
 AbRuAn: Hypersonic Aero-Optics Simulation Framework
 ==============================================================
 
+AbRuAn (or abruan) is named after my family members - Abhinav, Ruchi, and Anil Kumar Gupta. It is an aero-optical simulation framework developed at the University of Colorado Boulder for the analysis of aero-optics in high-speed flows. The package is restricted from wide public distribution but may be requested by an individual or group or organization.
+
+Architecture
+-------------
+
 .. sidebar:: AbRuAn Vision
 
-   .. image:: _images/banner1.png
+   .. image:: _images/abruan-logo.png
        :align: center
        :width: 300
 
-   **Description:** A simulation framework for aero and plasma optics analysis in high-speed and planetary environment. 
+   **Description:** A simulation framework for aero, gas, and plasma optics analysis in high-speed and planetary environment. 
    
    **License:** MIT License (Not Finalized)
 
@@ -19,15 +24,9 @@ AbRuAn: Hypersonic Aero-Optics Simulation Framework
 
    **Status:** In development
 
-What is AbRuAn?
-------------------
-AbRuAn (or abruan) is named after my family members - Abhinav, Ruchi, and Anil Kumar Gupta. It is an aero-optical simulation framework developed at the University of Colorado Boulder for the analysis of aero-optics in high-speed flows. The package is restricted from wide public distribution but may be requested by an individual or group or organization.
-
-Architecture
--------------
 **First Architecture:** Abruan was first developed in MATLAB with GUI created using the App Designer. It was packaged as a standalone application which required downloading MATLAB Runtime (MCR) at the first instance of use if MATLAB is not installed on the host computer. The first release was in 2020. 
 
-.. image:: _images/abruan_interface.PNG
+.. image:: _images/abruan_interface.png
    :align: center
    :width: 400
 

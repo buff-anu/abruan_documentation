@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Abruan'
-copyright = '2023 Anubhav Gupta. All rights reserved'
+copyright = '2023 - 2024 Anubhav Gupta. All rights reserved'
 author = 'Anubhav Gupta'
 release = '0.1'
 
@@ -31,12 +31,14 @@ html_static_path = ['_static']
 html_css_files = [
     'css/custom.css',
 ]
-html_logo = '_images/sr-71.jpg'
+html_logo = '_images/abruan-logo.png'
 html_theme_options = {
     # 'logo': {
     #     'text': 'AbRuAn Logo',
     # },
     'logo_only': False,
     'display_version': True,
+    'collapse_navigation': True,
+    'sticky_navigation': True,
     # 'style_nav_header_background': 'goldenrod',
 }
