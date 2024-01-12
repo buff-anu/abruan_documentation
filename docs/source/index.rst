@@ -28,7 +28,7 @@ AbRuAn is aimed at faster execution, flexibility of reconfiguration, multi-speci
 
 **First Architecture:** Abruan was first developed in MATLAB with GUI created using the App Designer. It was packaged as a standalone application which required downloading MATLAB Runtime (MCR) at the first instance of use if MATLAB is not installed on the host computer. The first release was in 2020. 
 
-.. image:: _images/abruan_interface.png
+.. image:: _images/abruan-interface.png
    :align: center
    :width: 400
 
