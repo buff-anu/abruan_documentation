@@ -3,29 +3,35 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+# Configuration file for the Sphinx documentation builder.
+
 import os
 import sys
 
-# Add the path to your Python module
-sys.path.insert(0, os.path.abspath('../../examples/scenarios'))
-sys.path.insert(0, os.path.abspath('../../src'))
-sys.path.insert(0, os.path.abspath('../../src/architecture'))
-sys.path.insert(0, os.path.abspath('../../src/architecture/messaging'))
-sys.path.insert(0, os.path.abspath('../../src/simulation/environment'))
-sys.path.insert(0, os.path.abspath('../../src/simulation/mechanics'))
-sys.path.insert(0, os.path.abspath('../../src/simulation/mechanics/dynamics/_GeneralModuleFiles'))
-sys.path.insert(0, os.path.abspath('../../src/simulation/mechanics/dynamics/optics'))
-sys.path.insert(0, os.path.abspath('../../src/simulation/mechanics/dynamics/spacecraft'))
-sys.path.insert(0, os.path.abspath('../../src/simulation/numerical_methods/integrators'))
-sys.path.insert(0, os.path.abspath('../../src/utilities'))
+PROJECT_ROOT = os.path.abspath("../..")
+SRC_ROOT = os.path.join(PROJECT_ROOT, "src")
+ABRUAN_ROOT = os.path.join(SRC_ROOT, "abruan")
+SCENARIOS_ROOT = os.path.join(PROJECT_ROOT, "scripts", "scenarios")
 
-# ... other configurations ...
+# Proper package import support:
+# import abruan.utilities.aero_optics
+sys.path.insert(0, SRC_ROOT)
+
+# Existing scenario imports.
+sys.path.insert(0, SCENARIOS_ROOT)
+
+# Compatibility for short autodoc names such as:
+# .. automodule:: aero_optics
+# .. automodule:: sys_model
+for directory, subdirectories, files in os.walk(ABRUAN_ROOT):
+    if any(filename.endswith(".py") for filename in files):
+        sys.path.insert(0, directory)
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'AbRuAn'
-copyright = '2023 - 2025 Anubhav Gupta. All rights reserved'
+copyright = '2023 - 2026 Anubhav Gupta. All rights reserved'
 author = 'Anubhav Gupta'
 release = '0.1'
 
@@ -54,14 +60,12 @@ html_static_path = ['_static']
 html_css_files = [
     'css/custom.css',
 ]
-html_logo = '_static/abruan-logo.svg'
-html_favicon = "_static/abruan-favicon.svg"
+html_logo = '_images/abruan-logo.png'
 html_theme_options = {
     # 'logo': {
     #     'text': 'AbRuAn Logo',
     # },
     'logo_only': False,
-    'display_version': True,
     'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': 4,

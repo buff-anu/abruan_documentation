@@ -91,6 +91,7 @@ Papers:
 #. Gupta, A.; and Argrow, B.; "`Analytical Approach for Aero-Optical and Atmospheric Effects in Supersonic Flow Fields. <https://arc.aiaa.org/doi/10.2514/6.2020-0684>`__" In: :venue:`AIAA SciTech`, Orlando, FL, Jan. 6 - 10, 2020.
 #. Gupta, A.; Ripoll, P. M.; Campbell, N. S.;  and Argrow, B.; "`Assessment of Optical Propagation Models with Application to Hypersonic Entry. <https://arc.aiaa.org/doi/10.2514/6.2023-0817>`__" In: :venue:`AIAA SciTech`, National Harbor, MD, Jan. 23 - 28, 2023.
 #. Gupta, A.; "`Basilisk and Docker for Streamlined GN&C Simulation. <https://zenodo.org/records/15008785>`__" In: :venue:`46th Annual AAS GN&C Conference`, Breckenridge, CO, Feb. 2 - 7, 2024.
+#. Gupta, A.; "`Basilisk and Docker for Reproducible GN&C Simulation: A Workflow Reference. <https://arxiv.org/abs/2605.12443>`__" In: :venue:`arXiv preprint, arXiv:2605.12443`, 2026.
 
 
 .. toctree::

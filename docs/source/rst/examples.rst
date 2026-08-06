@@ -6,7 +6,7 @@ Studying the example scripts is the best way to learn how to use AbRuAn.
 
 Standalone Example Scripts
 --------------------------
-- Planetary Atmospheric Refractivity
+- Planetary Atmosphere
 - Frames and Domains
 - Signal Propagation
 - Signal from Air to Ground
